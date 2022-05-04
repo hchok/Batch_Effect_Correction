@@ -1,3 +1,5 @@
+%Copyright (c) 2017, Matt Jacobson
+%All rights reserved.
 function [V,nr,nre]=lcon2vert(A,b,Aeq,beq,TOL,checkbounds)
 %An extension of Michael Kleder's con2vert function, used for finding the 
 %vertices of a bounded polyhedron in R^n, given its representation as a set
