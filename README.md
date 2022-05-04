@@ -94,7 +94,7 @@ The output of `scoring/Scoring_Evaluations.ipynb` is a table with scores for eac
 
 Finally, `scoring/categorization.m` which calls `scoring/compute_exposing_hyperplanes.m`, `scoring/vert2lcon.m` and `scoring/lcon2vert.m` is used to identify the optimal correction algorithm and correction variable by geometrically probing the space of all allowable scoring functions to yield an aggregate volume-based scoring measure. 
 - Input: the scoring table from `scoring/Scoring_Evaluations.ipynb`
-- Output: scoring functions which yield optimum at one of the method-variable combinations, and a table in which each scoring function is allocated some percentage of the volume. Method-variable combinations can be ranked by their volume percentage to identify which were most effective.
+- Output: representative scoring functions which yield optimum at one of the method-variable combinations, and a table listing volume percentages of optimum-invariant scoring function subsets. Method-variable combinations can be ranked by the volume percentage of their associated scoring function subset to identify which were most effective.
 
 
 **R version:** R version 4.1.0 (2021-05-18) -- "Camp Pontanezen"<br>
