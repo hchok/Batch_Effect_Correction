@@ -1,3 +1,5 @@
+%Copyright (c) 2017, Matt Jacobson
+%All rights reserved.
 function [A,b,Aeq,beq]=vert2lcon(V,tol)
 %An extension of Michael Kleder's vert2con function, used for finding the 
 %linear constraints defining a polyhedron in R^n given its vertices. This 
